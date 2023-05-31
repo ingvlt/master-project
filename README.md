@@ -75,5 +75,7 @@ To calculate the bias of the model, the code from [Touileb et al.](https://githu
 3. Update scripts/evaluation.py with the path to the directory.
 4. Run scripts/evaluation.py to calculate the F1 macro score between the gold data from Statistics Norway and the directory. Gold data can be downloaded from the [GitHub](https://github.com/SamiaTouileb/Biases-Norwegian-Multilingual-LMs/tree/main/gold_data) of Touileb et al. Convert the file to a .csv-file.
 
+## SLURM 
+The slurm folder contains an example file for a slurm job. 
 
 
